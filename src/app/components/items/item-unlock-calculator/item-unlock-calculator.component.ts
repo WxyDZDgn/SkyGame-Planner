@@ -188,6 +188,8 @@ export class ItemUnlockCalculatorComponent {
     });
 
     if (errors.length) { alert(errors.join('\n')); }
+
+    this.calculate();
   }
 
   onItemsChanged(items: Array<IItem>): void {
